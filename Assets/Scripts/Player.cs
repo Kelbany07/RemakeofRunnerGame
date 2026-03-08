@@ -46,4 +46,11 @@ public class Player : MonoBehaviour
             animator.SetBool("Jump", false);
         }
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Ground")
+        {
+            FindObjectOfType<Spawner>().SpawnGround();
+        }
+    }
 }

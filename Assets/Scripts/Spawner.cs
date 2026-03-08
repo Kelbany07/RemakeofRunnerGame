@@ -1,0 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Spawner : MonoBehaviour
+{
+    public GameObject groundPrefab;
+    public Vector3 nextSpawnPos;
+    // Start is called before the first frame update
+    void Start()
+    {
+        SpawnGround();
+    }
+
+    // Update is called once per frame
+   public void SpawnGround()
+    {
+        GameObject temp = Instantiate(groundPrefab, nextSpawnPos, Quaternion.identity);
+        nextSpawnPos = temp.transform.GetChild(1).transform.position;
+    }
+}
