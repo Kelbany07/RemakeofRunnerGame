@@ -1,4 +1,4 @@
-# RemakeofRunnerGame
+# PuppyPursuitRunnerGame
 (I lost my old progress, so I made a new repository)
 The Repository for my Endless Runner Game. Planning to create a side-scrolling endless running game. In the upcoming weeks, this project will be known as "Puppy Pursuit," a side-scrolling, endless runner game. The desired goal will be to control your dog, collect bones, and use the up arrow key to jump. Since the game is endless, the goal of the player is to simply survive and try to collect as many bones as they can. This game will consist of bottomless pits the player will need to avoid, along with cat-like enemies the player can jump over.
 
